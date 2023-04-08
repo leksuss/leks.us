@@ -4,6 +4,7 @@ title: Python, English
 
 theme: photophobia
 
+disableKinds: RSS
 DefaultContentLanguage: en
 SectionPagesMenu: main
 Paginate: 10
