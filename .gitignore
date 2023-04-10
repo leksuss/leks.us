@@ -1,2 +1,6 @@
 # local hugo file
 .hugo_build.lock
+
+# obsidian system files
+.obsidian
+
