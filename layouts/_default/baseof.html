@@ -7,7 +7,9 @@
   <meta name="viewport" content="width=device-width,minimum-scale=1">
   {{ hugo.Generator }}
 
-  <title>{{ block "title" . }}{{ with .Params.Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
+  <title>
+    {{ .Site.Params.title_tag }}:
+  {{ block "title" . }}{{ with .Params.Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
   <meta name="description"
         content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
 

@@ -19,6 +19,7 @@ params:
   site_logo: null
   description: Notes from Python & Django developer
   recent_posts_number: 10
+  title_tag: Andrey Alekseev, backend developer
 
 markup:
   highlight:
