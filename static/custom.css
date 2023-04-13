@@ -14,3 +14,12 @@ code.language-python{
 .highlight {
     margin-bottom:1.2em;
 }
+
+main {
+    line-height: 2rem;
+}
+
+.text-gray-400 {
+    --tw-text-opacity:1;
+    color:rgb(195 201 212/var(--tw-text-opacity))
+}
