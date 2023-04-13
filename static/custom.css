@@ -1,0 +1,12 @@
+code {
+    background-color: rgb(48 60 84);
+    padding: 0.2em 0.4em;
+    font-size: 90%;
+    white-space: break-spaces;
+    border-radius: 6px;
+}
+
+code.language-python{
+    padding: 0;
+    font-size: 100%;
+}
