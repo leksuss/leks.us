@@ -39,6 +39,6 @@ main a {
     color:rgb(195 201 212/var(--tw-text-opacity))
 }
 
-ul {
+ul, ol {
     margin: -10px 0 15px 0;
 }
