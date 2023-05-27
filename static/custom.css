@@ -38,3 +38,7 @@ main a {
     --tw-text-opacity:1;
     color:rgb(195 201 212/var(--tw-text-opacity))
 }
+
+ul {
+    margin: -10px 0 15px 0;
+}
