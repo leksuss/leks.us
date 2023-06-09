@@ -10,7 +10,7 @@ sudo -u postgres psql  # or docker exec -it postgres_container psql -Upostgres
 
 postgres=# CREATE DATABASE mydb;
 postgres=# CREATE USER mydb_user WITH ENCRYPTED PASSWORD 'mydb_user_pass';
-postgres=# GRANT ALL PRIVELEGES ON DATABASE mydb to mydb_user;
+postgres=# GRANT ALL PRIVILEGES ON DATABASE mydb to mydb_user;
 GRANT
 ```
 
