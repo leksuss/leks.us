@@ -10,7 +10,7 @@ To get code from git repositary to the server you have two options:
 1) via HTTPS and enter credentials every time you download source code
 2) via SSH and you need to setup ssh key authentication between production server and git server.
 
-Obviously, first option is useless, so we have to use second. So, let's use second! But actually we have thurd option - key forwarding. It allows you to use your local ssh keys on the server when you connected to this server. 
+Obviously, first option is useless, so we have to use second. So, let's use second! But actually we have third option - key forwarding. It allows you to use your local ssh keys on the server when you connected to this server. 
 
 Here step-by-step guide to set ssh key forwarding.
 
