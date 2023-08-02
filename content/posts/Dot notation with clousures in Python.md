@@ -1,5 +1,5 @@
 ---
-title: "Closures in Python"
+title: "Dot notation with clousures in Python"
 date: 2023-07-03T01:19:00+03:00
 draft: false
 ---
