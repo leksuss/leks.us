@@ -38,7 +38,7 @@ How do you think, what will be inside `res`? Here we use `OR` operator [I wrote 
 ```python
 res = res + k or 1  # expr 2
 ```
-But it is not! In expression 2 you will firstly evaluate `res + k` and then check if it's `True` or `False` and then `OR`  will run. In expression 1 firstly will run `OR` statement, and then result will be added to the `res`. So, difference between expr 1 and expr 2 is order of of operations. 
+But it is not! In expression 2 you will firstly evaluate `res + k` and then check if it's `True` or `False` and then `OR`  will run. In expression 1 firstly will run `OR` statement, and then result will be added to the `res`. So, difference between expr 1 and expr 2 is order of operations. 
 
 Why this happens? I think, core Python Developers decided that operator `+=` firstly is an assignment operator. And assignment operator evaluates at the last moment, afer all other operators. 
 
