@@ -24,8 +24,8 @@ Double `tab` button show me the possible file and folder paths I can hand over t
 Or, if I run this program with some params before, I can just press up arrow and it will filled up.
 
 Or maybe you want to run a command with long string you run before,  but don't remember exactly how it looks like. Jsut search in history! How it was? Something with `docker exec`? No problem:
-```
-history | grep 'docer exec'
+```bash
+history | grep 'docker exec'
 ```
 
 ## Shortcuts
