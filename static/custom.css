@@ -24,10 +24,11 @@ code {
     border-radius: 6px;
 }
 
-code.language-python{
+code.language-python, code.language-bash {
     padding: 0;
     font-size: 100%;
 }
+
 
 .highlight {
     margin-bottom:1.2em;
