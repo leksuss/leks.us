@@ -1,6 +1,6 @@
 ---
 title: "SSH auth key forwarding"
-date: 2023-06-26T12:34:00+03:00
+date: 2023-08-02T12:34:00+03:00
 draft: false
 ---
 
@@ -31,7 +31,7 @@ Host github.com
   IdentityFile ~/.ssh/id_rsa
 ```
 
-### For MacOS, you also should add your private key in Apple keychain
+For MacOS, you also should add your private key in Apple keychain
 ```bash
 ssh-add --apple-use-keychain ~/.ssh/id_rsa
 ```
