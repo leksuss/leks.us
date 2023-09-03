@@ -36,6 +36,11 @@ For MacOS, you also should add your private key in Apple keychain
 ssh-add --apple-use-keychain ~/.ssh/id_rsa
 ```
 
+If your MacOS says something like `ssh-add Error connecting to agent: No such file or directory` just run this:
+```bash
+ssh-agent <your shell>  # for zsh, for example: ssh-agent zsh 
+```
+
 Your production server by default should support ssh key forwarding. But, if you have any problem, try this [troubleshooting guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/using-ssh-agent-forwarding#troubleshooting-ssh-agent-forwarding)
 
 Here is some benefits of using SSH key forwarding:
