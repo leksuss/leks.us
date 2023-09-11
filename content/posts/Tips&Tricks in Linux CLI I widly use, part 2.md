@@ -8,11 +8,11 @@ So, in [first part](https://leks.us/posts/tipstricks-in-linux-cli-i-widly-use-pa
 
 ##### `cd - ` to back to previous directory
 
-You edit nginx config in `/etc/nginx/sites-available/`, and also need to create/edit file/folder in root site directory. You can switch between this directories set command `cd - `. This command jump you to previous directory. It has just one remembered directory - previouse. So you can loop between two working dorectories.
+You edit nginx config in `/etc/nginx/sites-available/`, and also need to create/edit file/folder in root site directory. You can switch between this directories set command `cd - `. This command jumps you to previous directory. It has just one remembered directory - previouse. So you can loop between two working dorectories.
 
-##### `!!` - insert last comand 
+##### `!!` - insert last command 
 
-It is very usual situation when you are working in CLI and receive result `permission denied`. Oh, you forget, this command requires SUDO. So, what to do? When I was a newbie in CLI, I press up arrow button, then go to the begining of command and write `sudo `, then press enter. Booring. Now I do it easlier:
+It is a very usual situation when you are working in CLI and receive result `permission denied`. Oh, you forgot, this command requires SUDO. So, what to do? When I was a newbie in CLI, I press up arrow button, then go to the beginning of command and write `sudo`, then press enter. Booring. Now I do it easier:
 ```bash
 sudo !!
 ```
