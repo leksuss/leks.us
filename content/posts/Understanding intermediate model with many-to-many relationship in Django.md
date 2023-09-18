@@ -20,7 +20,7 @@ class Tag(models.Model):
 
 You can put `ManyToManyField` in `Post` class, or in `Tag` class. And in example above intermediate model don't have any additional options. There is no "post-tag" object you can manage or use somehow. It's just relationship you want to designate and that's all.  Note, you don't need to add `on_delete` param because key-to-key pair in intermediate models will be deleted automatically when you delete row in one of the many-to-many relationship.
 
-Another examle, we have `Artist`, `Movie` and intermediate `Role` models:
+Another examlpe, we have `Artist`, `Movie` and intermediate `Role` models:
 ```python
 class Artist(models.Model):  
     name = models.CharField()
@@ -45,6 +45,6 @@ class Role(models.Model):
     movie = models.ForeignKey(movie, on_delete=models.CASCADE)
 ```
 
-Note, here we should set `on_delete` param for tird model because it's one-to-many fields ,not many-to-many.
+Note, here we should set `on_delete` param for third model because it's one-to-many fields ,not many-to-many.
 
-Now we have intermediate model with custom fields and we can add roles in admin panel using `Movie` and `Artist` models. And this is completle different example, because `Role` is independent entity having it's own properties. While "post-tag" is something like more technical relationship, in this example "artist-movie" relationship create new object - role with it's own properties.
+Now we have intermediate model with custom fields and we can add roles in admin panel using `Movie` and `Artist` models. And this is complete different example, because `Role` is independent entity having it's own properties. While "post-tag" is something like more technical relationship, in this example "artist-movie" relationship create new object - role with it's own properties.
