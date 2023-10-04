@@ -1,6 +1,6 @@
 ---
 title: "Emulation, Virtualization and WSL with WSL2"
-date: 2023-08-29T022:58:00+03:00
+date: 2023-08-29T22:58:00+03:00
 draft: false
 ---
 Imagine, you want linux on Windows. You want to run some linux apps, have linux-based manage of groups, users, and so on. How to do that? You have two ways:
