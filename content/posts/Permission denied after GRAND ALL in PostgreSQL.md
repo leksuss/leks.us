@@ -38,7 +38,7 @@ ERROR:  permission denied for schema public
 LINE 1: CREATE TABLE foo (id int);
                      ^
 ```
-Hmmm... After some googling, I found that `CREATE` command is eligible for only database owners! This feature was introduced in October 2022 with PostgreSQL version 15. You can find it [here](https://www.postgresql.org/about/news/postgresql-15-released-2526/#:%7E:text=PostgreSQL%2015%20also%20revokes%20the%20CREATE%20permission%20from%20all%20users%20except%20a%20database%20owner%20from%20the%20public) in "Other Notable Chanes". 
+Hmmm... After some googling, I found that `CREATE` command is eligible for only database owners! This feature was introduced in October 2022 with PostgreSQL version 15. You can find it [here](https://www.postgresql.org/about/news/postgresql-15-released-2526/#:%7E:text=PostgreSQL%2015%20also%20revokes%20the%20CREATE%20permission%20from%20all%20users%20except%20a%20database%20owner%20from%20the%20public) in "Other Notable Changes". 
 
 So now, to create tables, user should be the owner of the database in PostgreSQL 15. To set ownership you need to execute this command:
 ```sql
