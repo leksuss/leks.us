@@ -1,0 +1,20 @@
+allTitle:
+  other: "Все {{ .Title }}"
+
+recentTitle:
+  other: "Недавние {{ .Title }}"
+
+whatsInThis:
+  other: "Что здесь {{ .Type }}"
+
+related:
+  other: "Недавние статьи"
+
+taxonomyPageList:
+  other: "Ниже вы найдете другие статьи связанные с {{ .Title }}"
+
+LatestArticles:
+  other: "Статьи"
+
+LatestBooks:
+  other: "Рецензии на книги"

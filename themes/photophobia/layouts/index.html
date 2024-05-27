@@ -1,33 +1,23 @@
 {{ define "main" }}
   <article>{{ .Content }}</article>
-  {{ $mainSections := .Site.Params.mainSections | default (slice "post") }}
-  {{ $section := where .Site.RegularPages "Section" "in" $mainSections }}
-  {{ $section_count := len $section }}
-  {{ if ge $section_count 1 }}
-    {{ $section_name := index (.Site.Params.mainSections) 0 }}
 
-    <div>
-      {{ with .Site.GetPage "section" $section_name }}
-        <h3>{{ $.Param "recent_copy" | default (i18n "recentTitle" .) }}</h3>
+      {{ $posts := where site.RegularPages "Section" "posts" | first 5 }}
+      {{ with $posts }}
+          <h2>{{ i18n "LatestArticles" . }}</h2>
+          <ul>
+            {{ range $posts }}
+              <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            {{ end }}
+          </ul>
       {{ end }}
 
-      {{ $n_posts := $.Param "recent_posts_number" | default 10 }}
-
-      <section>
-        {{ range (first $n_posts $section) }}
-          <div>
-            {{ partial "item.html" . }}
-          </div>
-        {{ end }}
-      </section>
-
-      {{ if ge $section_count (add $n_posts 1) }}
-        <section>
-          {{ with .Site.GetPage "section" $section_name }}
-            <a href="{{ .RelPermalink }}">{{ i18n "allTitle" . }}</a>
+      {{ $books := where site.RegularPages "Section" "books" | first 5 }}
+          {{ with $books }}
+          <h2>{{ i18n "LatestBooks" . }}</h2>
+          <ul>
+            {{ range $books }}
+              <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            {{ end }}
+          </ul>
           {{ end }}
-        </section>
-      {{ end }}
-    </div>
-  {{ end }}
-{{ end }}
+    {{ end }}

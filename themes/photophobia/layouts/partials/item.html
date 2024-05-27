@@ -1,5 +1,5 @@
 <div class="font-mono">
-  <a class="bg-transparent" href="{{ .RelPermalink }}">
+  <a class="bg-transparent" href="{{ .Permalink }}">
     <time {{ printf `datetime="%s"` (.Date.Format "2006-01-02T15:04:05Z07:00") | safeHTMLAttr }}>
       {{ .Date.Format "2006-01-02" }}
     </time>

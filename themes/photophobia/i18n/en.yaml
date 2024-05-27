@@ -12,3 +12,9 @@ related:
 
 taxonomyPageList:
   other: "Below you will find pages that utilize the taxonomy term {{ .Title }}"
+
+LatestArticles:
+  other: "Aticles"
+
+LatestBooks:
+  other: "Book reviews"
