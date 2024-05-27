@@ -11,4 +11,3 @@ Here are links to some of my profiles:
  - [Stepic](https://stepik.org/users/120718120)
  - [StackOverFlow](https://stackoverflow.com/users/5605510/andrey)
  - [LinkedIn.com](https://www.linkedin.com/in/leksus/)
-
