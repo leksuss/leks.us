@@ -1,7 +1,7 @@
 ---
 title: "Permission denied after import DB in PostgreSQL"
 date: 2023-08-20T19:03:00+03:00
-draft: false
+draft: true
 ---
 
 This post extends previous with the [similar title](/posts/permission-denied-after-grand-all-in-postgresql/). 

@@ -1,7 +1,7 @@
 ---
 title: "Tips&Tricks in Linux CLI I widly use, part 1"
 date: 2023-08-08T22:03:00+03:00
-draft: false
+draft: true
 ---
 
 Stop! Do not go away! I know that there are a really huge number of useful CLI commands in Linux and one more article about it it's too boring to read. And a lot of articles just rewrite a big list of commands you never seen and never would use. But this article is different! I use this commands almost every time I working in Linux CLI. So, here we go.

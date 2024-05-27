@@ -1,7 +1,7 @@
 ---
 title: "Permission denied after GRAND ALL in PostgreSQL"
 date: 2023-04-16T14:19:00+03:00
-draft: false
+draft: true
 ---
 
 The usual behavior if you need to create a new database with a new user in PostgreSQL is to do something like this:

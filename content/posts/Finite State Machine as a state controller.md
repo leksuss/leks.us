@@ -1,7 +1,7 @@
 ---
 title: "Finite State Machine as a state control"
 date: 2023-05-22T17:22:00+03:00
-draft: false
+draft: true
 ---
 
 I don't have really big experience in programming right now, but I often encounter with such thing as **state**. Some of books says that the STATE is a King, it is most importanit thing you should take care about in programming.

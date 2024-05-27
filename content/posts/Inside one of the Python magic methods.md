@@ -1,7 +1,7 @@
 ---
 title: "Inside one of the Python magic methods"
 date: 2023-06-28T23:41:10+03:00
-draft: false
+draft: true
 ---
 Of course you know this Python syntactic sugar like:
 ```python

@@ -1,7 +1,7 @@
 ---
 title: "Emulation, Virtualization and WSL with WSL2"
 date: 2023-08-29T22:58:00+03:00
-draft: false
+draft: true
 ---
 Imagine, you want linux on Windows. You want to run some linux apps, have linux-based manage of groups, users, and so on. How to do that? You have two ways:
 1. **Emulate Linux**. You create something from scratch, that looks like Linux. It has the same (but not all, otherwise you'll recreate original Linux) core api methods for most popular Linux apps. You will not have original core, but you'll have something, which looks like Linux at first sight.

@@ -1,7 +1,7 @@
 ---
 title: "Explaining domain, DNS, NS-server, IP relationship"
 date: 2023-07-13T13:01:00+03:00
-draft: false
+draft: true
 ---
 
 This is a common problem with newbies, they don't understand relationship between things in title.

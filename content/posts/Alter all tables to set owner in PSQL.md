@@ -1,7 +1,7 @@
 ---
 title: "Alter all tables to set owner in PSQL"
 date: 2023-09-12T17:22:00+03:00
-draft: false
+draft: true
 ---
 
 It is not enough to set grant all for the imported database. You have to change ownership to all tables in the database. And there is no simple, built-in method to do this.

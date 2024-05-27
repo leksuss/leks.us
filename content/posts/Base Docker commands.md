@@ -1,7 +1,7 @@
 ---
 title: "Base Docker commands"
 date: 2023-09-05T11:23:00+03:00
-draft: false
+draft: true
 ---
 
 I had to write this article for myself, because there are a lot of Docker commands I need to remembered.

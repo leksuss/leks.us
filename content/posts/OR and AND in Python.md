@@ -1,7 +1,7 @@
 ---
 title: "OR and AND in Python"
 date: 2023-04-24T23:34:00+03:00
-draft: false
+draft: true
 ---
 
 Logical operators in Python is not just "logical". You will have powerful tool If you understand it's mechanics. In Python operators `AND` and `OR` doesn't return boolean value. It **always** return one of the operand. So you can use logical operators not only in if/else statement. For example:

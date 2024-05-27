@@ -1,7 +1,7 @@
 ---
 title: "Closures in Python"
 date: 2023-06-18T11:48:00+03:00
-draft: false
+draft: true
 ---
 
 Not everyone programmer knows what is closures, but it is quite interesting, so I'm going to try explain it in this article.

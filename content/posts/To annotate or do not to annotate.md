@@ -1,7 +1,7 @@
 ---
 title: "To annotate or do not to annotate"
 date: 2023-05-11T00:26:00+03:00
-draft: false
+draft: true
 ---
 
 Python is not strict annotated language. That means I don't need to set variable type. But since v. 3.5 python support annotating, not for compiler, but for IDE and static code analyzers. 

@@ -1,7 +1,7 @@
 ---
 title: "Query Manager in Django ORM"
 date: 2023-04-09T23:48:00+03:00
-draft: false
+draft: true
 ---
 
 When you write some query in Django ORM you always see this word `objects`. For example:

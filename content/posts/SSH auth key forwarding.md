@@ -1,7 +1,7 @@
 ---
 title: "SSH auth key forwarding"
 date: 2023-08-02T12:34:00+03:00
-draft: false
+draft: true
 ---
 
 Ok, Let's imagine that you have git repositary with the code you need to run in production server. And of course you have access to this server via ssh with ssh key authentication. 

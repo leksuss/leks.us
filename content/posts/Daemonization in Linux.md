@@ -1,7 +1,7 @@
 ---
 title: "Daemonization in Linux"
 date: 2023-07-25T23:48:00+03:00
-draft: false
+draft: true
 ---
 
 First of all, let's figure it out what is daemonization. Imagine, you have simple python script you run on some server via ssh. If you close ssh connection, script will stop working.

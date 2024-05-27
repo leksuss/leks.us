@@ -1,7 +1,7 @@
 ---
 title: "Tips&Tricks in Linux CLI I widly use, part 2"
 date: 2023-08-13T12:19:00+03:00
-draft: false
+draft: true
 ---
 
 So, in [first part](https://leks.us/posts/tipstricks-in-linux-cli-i-widly-use-part-1/) I wrote about keys I push to improve expirience with Linux CLI. Now I want to tell you about built-in commands.

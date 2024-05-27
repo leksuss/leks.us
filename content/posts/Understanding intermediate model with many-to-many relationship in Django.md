@@ -1,7 +1,7 @@
 ---
 title: "Understanding intermediate model with many-to-many relationship in Django"
 date: 2023-06-10T23:35:00+03:00
-draft: false
+draft: true
 ---
 
 Many-to-many relationship in Django generate third (intermediate) model which store key-to-key pairs from each of many-to-many models. Because there is no other way to store many-to-many relationship.

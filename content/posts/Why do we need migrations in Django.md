@@ -1,7 +1,7 @@
 ---
 title: "Why do we need migrations in Django"
 date: 2023-05-27T11:25:00+03:00
-draft: false
+draft: true
 ---
 
 I have three iterations of my relationship with migrations in Django. When saw it at first time, I don't understand why do we need it. It seems like a extra step for me. When I starts to use it, I understand - it is for saving changes for database in VCS like git.
