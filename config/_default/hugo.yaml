@@ -1,0 +1,47 @@
+baseURL: https://leks.us/
+languageCode: ru-RU
+title: Python, Django, PostgreSQL, Linux
+
+theme: photophobia
+
+SectionPagesMenu: main
+Paginate: 10
+googleAnalytics: ""
+
+sitemap:
+  changefreq: daily
+  priority: 0.5
+  filename: sitemap.xml
+
+params:
+  favicon: null
+  site_logo: null
+  description: Notes from Python & Django developer
+  recent_posts_number: 10
+  title_tag: Andrey Alekseev, backend developer
+
+markup:
+  highlight:
+    style: native
+
+
+defaultContentLanguage: ru
+defaultContentLanguageInSubdir: false
+languages:
+  ru:
+    contentDir: content/
+    languageCode: ru-RU
+    languageDirection: ltr
+    languageName: Русский
+    params:
+      subtitle: Referenz, Tutorials und Erklärungen
+    weight: 1
+  en:
+    contentDir: content/en
+    languageCode: en-US
+    languageDirection: ltr
+    languageName: English
+    params:
+      subtitle: Reference, Tutorials, and Explanations
+    weight: 2
+
