@@ -1,10 +1,10 @@
 	---
-title: "Creating Dockerfile"
+title: "Разница между некоторыми похожими командами в Dockerfile"
 date: 2023-09-12T13:01:00+03:00
 draft: true
 ---
 
-### Difference between CMD and ENTRYPOINT
+### Разница между CMD и ENTRYPOINT
 
 Both instructions run command inside docker after it starts. Difference in behavior is happend when you add some additional params while run container:
 ```bash

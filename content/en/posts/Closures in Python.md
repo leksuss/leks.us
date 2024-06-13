@@ -20,7 +20,7 @@ f = say_name('Andrei')
 f()  # Don't say me goodbye, Andrei!
 ```
 
-We define one func in another func and return internal func as object. Then we call external func, and then call internal. Looks OK, right? Or no? When you think about this code, you'll fount some strange thing: how the `f()`  calling knows the `name` variable? `f` is pointed to internal func, which doesn't accept any params. In this call we don't say any names.
+We define one func in another func and return internal func as object. Then we call external func, and then call internal. Looks OK, right? Or no? When you think about this code, you'll fount some strange thing: how the `f()`  calling knows the `name` variable? `f` is pointed to internal func, which doesn't accept any params. In this call we don't set any names.
 
 Okay, let's took another example, more strange:
 ```python
